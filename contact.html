@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg">
+        <form class="form-container">
+            <h1 class="submit-header teal">Amazing Thailand Festival Booth <br /> Reservation Form</h1>
+            <label for="booth-name">Booth Name</label>
+            <input required class="expanded" placeholder="Bangkok Street Fantasy" type="text" name="booth-name" />
+            <br>
+            <label for="booth-size">Booth Size</label>
+            <select name="booth-size">
+                <option selected value="10x10 ft.">10x10 ft.</option>
+                <option value="15x15 ft.">15x15 ft.</option>
+            </select>
+            <br>
+            <label for="booth-size">Want Booth Table?</label>
+            <input type="checkbox" name="booth-table">
+            <br>
+            <label for="booth-size">Booth Chair Number</label>
+            <input required class="expanded" type="number" placeholder="1" name="booth-chair">
+            <br>
+            <label for="booth-size">Booth Contactor Name</label>
+            <input required class="expanded" type="text" placeholder="James Watt" name="booth-contactor-name" />
+            <br>
+            <label for="booth-size">Booth Contactor Telephone</label>
+            <input required class="expanded" placeholder="0920909090" type="tel" name="booth-contactor-tel" />
+            <div class="btn-container">
+                <a class="submit-btn undecoration secondary" href="index.html">Go Back</a>
+                <button class="submit-btn" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
